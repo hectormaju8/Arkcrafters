@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": { "id": "minecolonies:blockhuttownhall" },
+    "title": { "text": "Mejorar Ayuntamiento a nivel 4" },
+    "description": { "text": "Ayuntamiento nivel 4 completado." },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "townhall_level": {
+      "trigger": "minecolonies:complete_build_request",
+      "conditions": {
+        "hut_name": "townhall",
+        "level": 4
+      }
+    }
+  },
+  "requirements": [["townhall_level"]]
+}

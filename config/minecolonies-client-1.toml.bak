@@ -1,0 +1,20 @@
+#Todas las configuraciones relacionadas con el núcleo del juego
+[gameplay]
+	#minecolonies.config.enablecitizenvoices.comment [Default: true]
+	enablecitizenvoices = true
+	#De forma predeterminada, al colocar un esquema cerca de otros edificios, los edificios ya colocados se mostrarán como si estuvieran en el nivel 5 y tendrán un contorno azul a su alrededor. Puede deshabilitar eso configurando esto en falso. [Default: true]
+	neighborbuildingrendering = true
+	#A qué distancia debe estar un edificio de otro para considerarse vecino, en bloques. -1 = cruzándose, 0 = tocándose [Default: 4, min: -2, max: 16]
+	# Default: 4
+	# Range: -2 ~ 16
+	neighborbuildingrange = 4
+	#A qué distancia (en bloques) debes estar para ver los encargos llevando las gafas de construcción. [Default: 50, min: 1, max: 250]
+	# Default: 50
+	# Range: 1 ~ 250
+	buildgogglerange = 50
+	#Si es "True", las fronteras de las colonias que se muestran con la herramienta de constructor se mostrarán con el color de equipo de la colonia. Si es "False", la colonia en la que estas será blanca y las otras colonias serán rojas. [Default: true]
+	colonyteamborders = true
+	#¿Debería mostrarse contenido especial los días festivos? [Default: true]
+	holidayfeatures = true
+	#When true, dyed leather items will show a tooltip so that you know what color to use. [Default: true]
+	showdyetooltips = true

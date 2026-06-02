@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.leclowndu93150.create_aeronautics_ftb_chunks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PartyTeamAccessor",
+    "ServerSubLevelAccessor",
+    "MixinBlockBreakingKineticBlockEntity",
+    "MixinBlockEntityConfigurationPacket",
+    "MixinClipboardEditPacket",
+    "MixinRadialWrenchMenuSubmitPacket",
+    "MixinSuperGlueRemovalPacket",
+    "MixinSuperGlueSelectionPacket",
+    "MixinToolboxDisposeAllPacket",
+    "MixinToolboxEquipPacket"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

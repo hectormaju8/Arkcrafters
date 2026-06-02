@@ -1,0 +1,14 @@
+{
+  "parent": "arkcraft:hitos/root",
+  "display": {
+    "icon": { "id": "minecraft:diamond_sword" },
+    "title": { "text": "Exterminador" },
+    "description": { "text": "Mataste 300 monstruos." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "manual": { "trigger": "minecraft:impossible" } },
+  "requirements": [["manual"]]
+}

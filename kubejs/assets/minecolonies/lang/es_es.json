@@ -1,0 +1,6 @@
+{
+  "com.minecolonies.coremod.research.unlocktoupgrade": "Para subir este edificio de tier debes completar la investigacion correspondiente en la Universidad (rama Expansion de la Colonia) y pagar el tributo en monedas.",
+  "com.minecolonies.coremod.research.havetounlock": "Construye una Universidad y completa la investigacion de Expansion de la Colonia para desbloquear mejoras de tier.",
+  "com.minecolonies.coremod.research.item1": "§cSe requiere investigar §c%s ",
+  "com.minecolonies.coremod.research.item2": "§cen la universidad para ser construido."
+}

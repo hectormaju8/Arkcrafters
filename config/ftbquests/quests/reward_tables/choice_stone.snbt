@@ -1,0 +1,63 @@
+{
+	id: "11DC90A8AF7A34C3"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 64
+			id: "5DEDA19FEE4C8FAC"
+			item: {
+				count: 1
+				id: "minecraft:stone"
+			}
+		}
+		{
+			count: 64
+			id: "189EFCE16573861B"
+			item: {
+				count: 1
+				id: "minecraft:andesite"
+			}
+		}
+		{
+			count: 64
+			id: "5E57B50995CF4E9A"
+			item: {
+				count: 1
+				id: "minecraft:granite"
+			}
+		}
+		{
+			count: 64
+			id: "602F2B654EBF650E"
+			item: {
+				count: 1
+				id: "minecraft:diorite"
+			}
+		}
+		{
+			count: 64
+			id: "4E74311E1D440439"
+			item: {
+				count: 1
+				id: "minecraft:deepslate"
+			}
+		}
+		{
+			count: 64
+			id: "41738039E2188077"
+			item: {
+				count: 1
+				id: "minecraft:sandstone"
+			}
+		}
+		{
+			count: 64
+			id: "014DD02C170DAE6D"
+			item: {
+				count: 1
+				id: "minecraft:cobblestone"
+			}
+		}
+	]
+}

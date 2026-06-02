@@ -1,0 +1,14 @@
+{
+  "parent": "arkcraft:hitos/root",
+  "display": {
+    "icon": { "id": "minecraft:dragon_egg" },
+    "title": { "text": "Leyenda de Arkcraft" },
+    "description": { "text": "Completaste TODOS los hitos de la temporada." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "manual": { "trigger": "minecraft:impossible" } },
+  "requirements": [["manual"]]
+}

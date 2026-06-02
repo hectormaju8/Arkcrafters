@@ -1,0 +1,14 @@
+{
+  "parent": "arkcraft:hitos/root",
+  "display": {
+    "icon": { "id": "minecolonies:blockhuttownhall" },
+    "title": { "text": "Primer Pueblo" },
+    "description": { "text": "Fundaste tu primera colonia." },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "manual": { "trigger": "minecraft:impossible" } },
+  "requirements": [["manual"]]
+}

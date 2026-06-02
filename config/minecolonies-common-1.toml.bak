@@ -1,0 +1,9 @@
+#Todas las configuraciones relacionadas con el núcleo del juego
+[gameplay]
+	#Ya sea para generar barcos de suministro y campamentos en cofres de botín. [Default: true]
+	generatesupplyloot = true
+
+#Todas las configuraciones relacionadas con peticiones del sistema
+[requestsystem]
+	#¿Debe el sistema de solicitud mostrar información de depuración en debug.log? Útil si funciona mal. [Default: false]
+	enabledebuglogging = false

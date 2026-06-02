@@ -1,0 +1,20 @@
+# === Arkcraft — repo de FUENTE del modpack (sin .jar de mods ni mundo) ===
+# Ignorar TODO por defecto; permitir solo lo del proyecto.
+/*
+
+!.gitignore
+!README.md
+!CONTEXT.md
+!manifest.json
+!config/
+!kubejs/
+!defaultconfigs/
+
+# Excluir contenido de terceros / pesado dentro de lo permitido
+config/spark/
+config/ftbquests/scripts/_aero_bundled/
+config/ftbquests/scripts/_aero_bundled.zip
+
+# Cachés varios
+**/.cache/
+**/cache/

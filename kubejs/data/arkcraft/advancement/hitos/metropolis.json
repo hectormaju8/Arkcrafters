@@ -1,0 +1,14 @@
+{
+  "parent": "arkcraft:hitos/root",
+  "display": {
+    "icon": { "id": "minecraft:beacon" },
+    "title": { "text": "Metropolis" },
+    "description": { "text": "Los 8 edificios clave a nivel 5." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "manual": { "trigger": "minecraft:impossible" } },
+  "requirements": [["manual"]]
+}

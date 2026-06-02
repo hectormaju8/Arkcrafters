@@ -1,0 +1,14 @@
+{
+  "parent": "arkcraft:hitos/root",
+  "display": {
+    "icon": { "id": "minecraft:dragon_head" },
+    "title": { "text": "Cazador de Jefes T4" },
+    "description": { "text": "Derrotaste un jefe de Hot Zone T4." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "manual": { "trigger": "minecraft:impossible" } },
+  "requirements": [["manual"]]
+}

@@ -1,0 +1,1 @@
+{"branch":"arkcraft:expansion","name":"Expansion: Manos expertas","subtitle":"Constructores x5 al colocar y romper bloques (Arkcraft)","autostart":true,"instant":true,"hidden":true,"no-reset":true,"effects":[{"id":"minecolonies:effects/blockplacespeedmultiplier","level":5},{"id":"minecolonies:effects/blockbreakspeedmultiplier","level":5}],"researchLevel":1,"sortOrder":99}

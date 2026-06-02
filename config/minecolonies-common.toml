@@ -1,0 +1,9 @@
+#Todas las configuraciones respecto al juego base
+[gameplay]
+	#Si generar o no suministros en los cofres de campamentos y barcos de suministro. [Default: true]
+	generatesupplyloot = true
+
+#Todas las configuraciones relacionadas con peticiones del sistema
+[requestsystem]
+	#¿Debería el sistema de peticiones mostrar información de depuración? Útil si no está funcionando bien. [Default: false]
+	enabledebuglogging = false

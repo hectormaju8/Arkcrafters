@@ -1,0 +1,189 @@
+#Todas las configuraciones relacionadas con el núcleo del juego
+[gameplay]
+	#Cantidad inicial de ciudadanos. [Default: 4, min: 1, max: 10]
+	# Default: 4
+	# Range: 1 ~ 10
+	initialcitizenamount = 4
+	#¿Pueden los jugadores poder colocar una cantidad infinita de campamentos / barcos de suministros? [Default: false]
+	allowinfinitesupplychests = false
+	#¿Podrían los jugadores abandonar su colonia para crear una nueva fácilmente? Nota: ¡Esto tiene errores! [Default: false]
+	allowinfinitecolonies = false
+	#¿Permitir colonias en otras dimensiones? [Default: true]
+	allowotherdimcolonies = true
+	#Número máximo de ciudadanos en una colonia. [Default: 250, min: 25, max: 500]
+	# Default: 250
+	# Range: 25 ~ 500
+	maxcitizenpercolony = 250
+	#¿Activar características en desarrollo? (Puede causar fallos)? [Default: false]
+	enableindevelopmentfeatures = false
+	#¿Se muestran las etiquetas de los nombres de los ciudadanos? [Default: true]
+	alwaysrendernametag = true
+	#¿Trabajarán los trabajadores bajo la lluvia? [Default: false]
+	workersalwaysworkinrain = true
+	#Posibilidad de que el minero obtenga un mineral al extraer adoquines o piedras (de manera predeterminada, se puede expandir con paquetes de datos a otros materiales). Este es un porcentaje. (Para cambiar qué minerales puede encontrar el minero, consulta la "Lista de minerales de la suerte") [Default: 1, min: 0, max: 100]
+	# Default: 1
+	# Range: 0 ~ 100
+	luckyblockchance = 1
+	#El nivel mínimo que debe tener un Ayuntamiento para permitir la teletransportación a las colonias aliadas. [Default: 3, min: 0, max: 5]
+	# Default: 3
+	# Range: 0 ~ 5
+	minthleveltoteleport = 3
+	#Modificador del consumo de alimentos. [Default: 1.0, min: 0.1, max: 100.0]
+	# Default: 1.0
+	# Range: 0.1 ~ 100.0
+	foodmodifier = 1.0
+	#Qué tan comunes son las enfermedades. 1 = muy común, 100 = extremadamente raro. [Default: 5, min: 1, max: 100]
+	# Default: 5
+	# Range: 1 ~ 100
+	diseasemodifier = 5
+	#Si parte de la colonia es cargada por un propietario/oficial, ¿debe mantenerse cargada la colonia? (Establezca cuántos fragmentos se cargan con la opción "Estrictez de carga de fragmentos de colonia") [Default: true]
+	forceloadcolony = true
+	#Establece el tiempo que los chunks permanecen cargados después de que el jugador se vaya de la colonia, no se mantiene tras un reinicio. Por defecto: 10 minutos [Default: 10, min: 1, max: 1440]
+	# Default: 10
+	# Range: 1 ~ 1440
+	loadtime = 10
+	#Esto controla cuántos fragmentos se cargan con la opción "Colonia de carga de fragmentos". Cuanto mayor sea este valor, menos fragmentos se cargarán. (Los fragmentos más internos se cargarán primero). 1 = cargar todos los fragmentos reclamados. [Default: 3, min: 1, max: 15]
+	# Default: 3
+	# Range: 1 ~ 15
+	colonyloadstrictness = 3
+	#Recuento máximo de troncos en un árbol para que el Leñador compruebe durante su búsqueda de árboles. [Default: 400, min: 1, max: 1000]
+	# Default: 400
+	# Range: 1 ~ 1000
+	maxtreesize = 400
+	#Deshabilita las restricciones de colocación de campamentos de suministro, destinadas a mundos del cielo y similares [Default: false]
+	nosupplyplacementrestrictions = false
+	#Los asaltantes aparecerán en el cielo si esto está habilitado [Default: false]
+	skyraiders = false
+
+#Todas las configuraciones relacionadas con el sistema de investigaciones
+[research]
+	#Permite la finalización automática y (casi) instantánea de la investigación para jugadores en modo creativo. Si es falso, los jugadores creativos aún podrán comenzar investigaciones, pero tendrán tasas de progreso normales. [Default: true]
+	researchcreativecompletion = true
+	#Aumenta significativamente la cantidad de información relacionada con los paquetes de datos de investigación que se registra durante la carga mundial. [Default: false]
+	researchdebuglog = false
+	#Una lista de elementos para cobrar a los jugadores al deshacer una investigación ya completada.
+	researchresetcost = ["minecolonies:ancienttome:1"]
+
+#Todas las configuraciones relacionadas con los comandos de MineColonies
+[commands]
+	#¿Debería permitirse al jugador usar el comando '/mc rtp'? [Default: false]
+	canplayerusertpcommand = false
+	#¿Debería permitirse usar el comando /mc colony teleport a el jugador? [Default: false]
+	canplayerusecolonytpcommand = false
+	#¿Pueden los jugadores teletransportarse a colonias aliadas? [Default: true]
+	canplayeruseallytownhallteleport = true
+	#¿Debería permitirse a los jugadores utilizar el comando /mc home? Nota: Solo los propietarios de la colonia pueden usar este comando. [Default: false]
+	canplayerusehometpcommand = false
+	#¿Debería permitirse usar el comando '/mc citizens info' a jugadores? [Default: true]
+	canplayeruseshowcolonyinfocommand = true
+	#¿Debería permitirse usar el comando '/mc citizens kill' a jugadores? [Default: false]
+	canplayerusekillcitizenscommand = false
+	#¿Debería permitirse usar el comando '/mc citizens modify' a jugadores? [Default: false]
+	canplayerusemodifycitizenscommand = false
+	#¿Debería permitirse usar el comando '/mc colony addOfficer' a jugadores? [Default: true]
+	canplayeruseaddofficercommand = true
+	#¿Debería permitirse usar el comando '/mc colony delete' a jugadores? [Default: false]
+	canplayerusedeletecolonycommand = false
+	#¿Debería permitirse usar el comando '/mc colony requestsystem-reset' a jugadores? [Default: false]
+	canplayeruseresetcommand = false
+
+#Toda la configuración relacionada con el reclamo de colonias
+[claims]
+	#minecolonies.config.maxColonySize.comment [Default: 20, min: 1, max: 250]
+	# Default: 20
+	# Range: 1 ~ 250
+	maxColonySize = 20
+	#minecolonies.config.minColonyDistance.comment [Default: 8, min: 1, max: 200]
+	# Default: 8
+	# Range: 1 ~ 200
+	minColonyDistance = 8
+	#minecolonies.config.initialColonySize.comment [Default: 4, min: 1, max: 15]
+	# Default: 4
+	# Range: 1 ~ 15
+	initialColonySize = 4
+	#Máxima distancia (en bloques) desde el punto de aparición para una colonia. [Default: 30000, min: 1000, max: 2147483647]
+	# Default: 30000
+	# Range: > 1000
+	maxdistancefromworldspawn = 30000
+	#Mínima distancia (en bloques) desde el punto de aparición para una colonia. [Default: 0, min: 0, max: 1000]
+	# Default: 0
+	# Range: 0 ~ 1000
+	mindistancefromworldspawn = 0
+
+#Todas las configuraciones respecto a elementos de combate en Minecolonies
+[combat]
+	#minecolonies.config.dobarbariansspawn.comment [Default: true]
+	dobarbariansspawn = true
+	#minecolonies.config.barbarianhordedifficulty.comment [Default: 5, min: 0, max: 10]
+	# Default: 5
+	# Range: 0 ~ 10
+	barbarianhordedifficulty = 5
+	#minecolonies.config.maxBarbarianSize.comment [Default: 80, min: 6, max: 400]
+	# Default: 80
+	# Range: 6 ~ 400
+	maxBarbarianSize = 80
+	#minecolonies.config.dobarbariansbreakthroughwalls.comment [Default: true]
+	dobarbariansbreakthroughwalls = true
+	#Número de noches entre asaltos. [Default: 14, min: 1, max: 50]
+	# Default: 14
+	# Range: 1 ~ 50
+	averagenumberofnightsbetweenraids = 14
+	#La cantidad mínima de noches que deben pasar entre asaltos. [Default: 10, min: 1, max: 30]
+	# Default: 10
+	# Range: 1 ~ 30
+	minimumnumberofnightsbetweenraids = 10
+	#¿Deben atacar las entidades a los ciudadanos? [Default: true]
+	mobattackcitizens = true
+	#minecolonies.config.shouldraiderbreakdoors.comment [Default: true]
+	shouldraiderbreakdoors = true
+	#Multiplicador de daño de ataque para los guardias. [Default: 1.0, min: 0.1, max: 15.0]
+	# Default: 1.0
+	# Range: 0.1 ~ 15.0
+	guardDamageMultiplier = 1.0
+	#Multiplicador de salud de todos los guardias. [Default: 1.0, min: 0.1, max: 5.0]
+	# Default: 1.0
+	# Range: 0.1 ~ 5.0
+	guardhealthmult = 1.0
+	#Activa el modo jugador contra jugador en Minecolonies, (las colonias pueden ser destruídas y pueden sufrir daños en ciertas condiciones). [Default: false]
+	pvp_mode = false
+
+#Todas las configuraciones de permisos
+[permissions]
+	#¿Debería habilitarse la protección de colonias? [Default: true]
+	enablecolonyprotection = true
+	#Independientemente de la protección de la colonia, ¿deberían apagarse las explosiones dentro de las colonias? DAMAGE_NOTHING evita las explosiones por completo. DAMAGE_PLAYERS, permite explosiones para dañar a jugadores y mobs hostiles, pero no bloquea o mobs neutrales o amistosos. DAMAGE_ENTITIES permite dañar a todas las entidades. DAMAGE_EVERYTHING permite explosiones para dañar entidades y bloques. [Default: DAMAGE_ENTITIES, values: DAMAGE_NOTHING, DAMAGE_PLAYERS, DAMAGE_ENTITIES, DAMAGE_EVERYTHING]
+	#Allowed Values: DAMAGE_NOTHING, DAMAGE_PLAYERS, DAMAGE_ENTITIES, DAMAGE_EVERYTHING
+	turnoffexplosionsincolonies = "DAMAGE_ENTITIES"
+	#Disables colony permissions if player has a given permission level. [Default: 2, min: 0, max: 4]
+	# Default: 2
+	# Range: 0 ~ 4
+	permissioneventbypassminpermlevel = 2
+
+#Todas las configuraciones relacionadas con la compatibilidad de mods
+[compatibility]
+	#Al cargar recetas, genera archivos CSV de auditoría para ayudar a depurar datapacks o mods adicionales. [Default: false]
+	auditcraftingtags = false
+	#Inventarios de depuración. [Default: false]
+	debuginventories = false
+	#Activa esta opción si estás usando este mundo para construir y escanear plantillas. [Default: false]
+	blueprintbuildmode = false
+
+#Todas las configuraciones relacionadas con cálculos de ruta
+[pathfinding]
+	#Mensajes de depuración del comentado de rutas. [Default: 0, min: 0, max: 10]
+	# Default: 0
+	# Range: 0 ~ 10
+	pathfindingdebugverbosity = 0
+	#Mínimo número de raíles consecutivos para que los ciudadanos los usen. [Default: 8, min: 5, max: 100]
+	# Default: 8
+	# Range: 5 ~ 100
+	minimumrailstopath = 8
+	#Cantidad de hilos de procesador adicionales a usar en cálculos de ruta. [Default: 1, min: 1, max: 10]
+	# Default: 1
+	# Range: 1 ~ 10
+	pathfindingmaxthreadcount = 3
+
+#minecolonies.config.requestSystem.comment
+[requestSystem]
+	#¿Debería el sistema de solicitudes resolver creativamente (si es posible) cuándo se requiere que el jugador resuelva una solicitud? Esta es una herramienta de depuración y puede llevar mucho tiempo resolver una solicitud. [Default: false]
+	creativeresolve = false

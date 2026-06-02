@@ -1,0 +1,571 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "hitos"
+	group: ""
+	icon: {
+		id: "minecraft:nether_star"
+	}
+	id: "73239E8DB41DFA66"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecolonies:blockhuttownhall"
+			}
+			id: "20C74F71420E9405"
+			rewards: [
+				{
+					id: "6B3F9A955C385C25"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5AC10F79B45F9C20"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecolonies:minecolonies/place_townhall"
+				criterion: ""
+				id: "4F2001AB1CC448A7"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "minecolonies:blockhuttownhall"
+			}
+			id: "6D14313C726976A3"
+			rewards: [
+				{
+					id: "29C776C5B68D738B"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "3BDCB590B4AD6EF8"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "arkcraft:minecolonies/townhall_3"
+				criterion: ""
+				id: "0C1FE6A640BDCC31"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "minecolonies:blockhuttownhall"
+			}
+			id: "26733BB163DCC344"
+			rewards: [
+				{
+					id: "1F95E1563863987C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 5
+					id: "1EE1237817D3D9EB"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				advancement: "arkcraft:minecolonies/townhall_5"
+				criterion: ""
+				id: "350892972BF96799"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "minecraft:beacon"
+			}
+			id: "25EF5E22B01FE5BC"
+			rewards: [
+				{
+					id: "18A4653602C3FE15"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4C08D72B194E5A3E"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				advancement: "arkcraft:hitos/metropolis"
+				criterion: ""
+				id: "4576782D6DB2EAB6"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "lightmanscurrency:coin_gold"
+			}
+			id: "6BD77F648A30C5B6"
+			rewards: [
+				{
+					id: "1CC5D0F135F50B25"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "5AC10F79B45F9C21"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "arkcraft:hitos/inversor"
+				criterion: ""
+				id: "73B1A2DF17925844"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "lightmanscurrency:coin_diamond"
+			}
+			id: "5491E02F26DB3DFC"
+			rewards: [
+				{
+					id: "02E09F0152972B11"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 5
+					id: "13D646CDF45F4F80"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "arkcraft:hitos/magnate"
+				criterion: ""
+				id: "41396E8999DB4210"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "lightmanscurrency:coin_netherite"
+			}
+			id: "3F6697AF183E0B99"
+			rewards: [
+				{
+					id: "42271DD0795F4D86"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0207FE707347FAA6"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				advancement: "arkcraft:hitos/economia"
+				criterion: ""
+				id: "04FE96E640920EF6"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "4B2D5E4082A356DC"
+			rewards: [
+				{
+					id: "6B8E5C580F56A400"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "54FF191308E635B5"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "arkcraft:hitos/guerra1"
+				criterion: ""
+				id: "31A2C24EC96FFD00"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "0F77135D2BDD4E55"
+			rewards: [
+				{
+					id: "5DA6247634B19A96"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 5
+					id: "247CCE2339F7319B"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "arkcraft:hitos/guerra3"
+				criterion: ""
+				id: "6CD6951F8BE53074"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "3182DC64ADB20D60"
+			rewards: [
+				{
+					id: "33B558D1A46EFFFC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2493682EA2FFA049"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				advancement: "arkcraft:hitos/guerra5"
+				criterion: ""
+				id: "3078DA66E4763042"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "6CD066038317D162"
+			rewards: [
+				{
+					id: "4C44C8BC72516C9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "17D0F479B5B7CB33"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56F10049C0F99768"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 500
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "48F5F9351434F150"
+			rewards: [
+				{
+					id: "7CCA4A1B3B8FD367"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 5
+					id: "6450AC2471870E61"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EF2D1DBCEF3C055"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 3000
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "1CC09C5B65D64217"
+			rewards: [
+				{
+					id: "6BBF819E4DB7BD9A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 3
+					id: "140A8A1AA6F3A0C1"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "316CCC620470B71B"
+					type: "kill"
+					value: 250L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "1FD3869CA9A1BC77"
+					type: "kill"
+					value: 250L
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "68DBE6F0E099C4F5"
+			rewards: [
+				{
+					id: "6409384529410EEA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 5
+					id: "571B29F8F5EA7366"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "arkcraft:hitos/jefe_t3"
+				criterion: ""
+				id: "7D38B2B07B453FBD"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "1A7C17E0977E2D98"
+			rewards: [
+				{
+					id: "0BC34E34D6A16E54"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0481A8FAAC2A37A9"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				advancement: "arkcraft:hitos/jefe_t4"
+				criterion: ""
+				id: "6E4E120CD3205B81"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "jewelry:ruby_ring"
+			}
+			id: "6F7BA8966AA08884"
+			rewards: [
+				{
+					id: "76172FA7258A6010"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 3
+					id: "2C78E233D5FDAAA9"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_gold"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "arkcraft:hitos/joyero"
+				criterion: ""
+				id: "23E515DD2ACED329"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "24BC16B16D65BD5F"
+			rewards: [
+				{
+					id: "5AF717D1C67CD0B0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7E092C9D659A94E4"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "42C7244E913732AB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "1539EFED74FB2DCE"
+			rewards: [
+				{
+					id: "1D979CC92226CA1B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "06670B56E7A0B4D4"
+					item: {
+						count: 1
+						id: "lightmanscurrency:coin_emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				advancement: "arkcraft:hitos/leyenda"
+				criterion: ""
+				id: "7966A36222526C0E"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "pattern": [
+    " SSS ",
+    "SBPBS",
+    "SPEBS",
+    "SBPBS",
+    " SSS "
+  ],
+  "key": {
+    "S": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "id": "create_aeronautics_ftb_chunks:contraption_claim_block",
+    "count": 1
+  }
+}
