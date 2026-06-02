@@ -1,4 +1,4 @@
-# Arkcraft
+# Arkcrafters
 
 Modpack personal de **Minecraft 1.21.1 — NeoForge 21.1.232**. Idioma: Español (`es_es`).
 Post-apocalipsis + colonia (MineColonies) + automatización (Create). Economía por Hot Zones → tributos → guerra de colonias → endgame de Hitos. Temporada de 30 días.

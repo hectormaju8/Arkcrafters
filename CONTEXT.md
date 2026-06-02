@@ -1,4 +1,4 @@
-# Arkcraft — Documentación del Modpack
+# Arkcrafters — Documentación del Modpack
 
 > **Documento único del proyecto.** Reúne todo: identidad, sistemas, economía, guerra, hot zones, hitos, FTB Quests, comandos y reglas para no romper nada.
 > *Última actualización: 2 junio 2026.*
@@ -15,7 +15,7 @@
 > **Archivos a subir al servidor de producción:** ver lista al final de este documento (sección *Actualizar servidor a 1.1*).
 
 > ## 🚀 Versión 1.0 — lanzamiento (1 junio 2026)
-> Primera versión estable y completa de Arkcraft. Todos los sistemas implementados y probados (Hot Zones, economía/cap de gasto, tributos MineColonies, guerra de colonias, PvP mundial, joyería, stamina, Hitos), scripts revisados, textos casual y comandos asegurados.
+> Primera versión estable y completa de Arkcrafters. Todos los sistemas implementados y probados (Hot Zones, economía/cap de gasto, tributos MineColonies, guerra de colonias, PvP mundial, joyería, stamina, Hitos), scripts revisados, textos casual y comandos asegurados.
 > **Servidor dedicado listo** en la carpeta [`server/`](server/) (NeoForge 21.1.232 + 110 mods, arranque de 1 clic). Pasos y guía de actualización en [`server/LEEME-SERVIDOR.md`](server/LEEME-SERVIDOR.md).
 
 ---
@@ -24,7 +24,7 @@
 
 | Campo | Valor |
 |---|---|
-| Nombre | Arkcraft |
+| Nombre | Arkcrafters *(en CurseForge; la carpeta de la instancia en disco puede seguir como `Arkcraft`)* |
 | Tipo | Instancia personal CurseForge (1.21.1 NeoForge 21.1.232) |
 | Idioma | **`es_es` únicamente** (Español — España). Cliente: Opciones → Idioma → Español (España). **No usar `es_mx`** (varios mods no cargan bien). |
 | Concepto | Post-apocalipsis + colonia MineColonies + automatización Create. Monedas **solo** de Hot Zones → tributos en la Universidad para subir edificios → **guerra entre colonias** → endgame **Hitos**. |
@@ -227,7 +227,7 @@ Al matar a otro jugador (sin guerra activa para ellos): cae ~**20 % de objetos**
 ---
 
 ## Combate stamina (ParCool) — `parcool_combat_stamina.js` (cliente + servidor)
-ParCool no gasta stamina al pegar de forma nativa. Solución Arkcraft: cada PC consume stamina en su `LocalPlayer` al atacar y la sincroniza; el servidor bloquea el daño solo si está **agotado** (rayos rojos).
+ParCool no gasta stamina al pegar de forma nativa. Solución Arkcrafters: cada PC consume stamina en su `LocalPlayer` al atacar y la sincroniza; el servidor bloquea el daño solo si está **agotado** (rayos rojos).
 - Coste por golpe (escala ~2000): puño 25 · ligera 35 · media 50 · asta 65 · pesada 85.
 - Detección: `LeftClickEmpty` + `AttackEntityEvent` con anti-duplicado (máx. 1/tick + cooldown del arma). Better Combat dispara varios eventos por swing → el dedup evita vaciar la barra de un golpe.
 - **Errores a NO repetir:** `consumeStamina()`/`processOnServer()` no existen/no-op en ParCool 3.4.3; bloquear si `stamina < coste` deja un rayito sin agotamiento real.
@@ -318,8 +318,8 @@ Cada hito = una misión FTB cuyo **objetivo es un logro** y cuya **recompensa es
 
 ## Compartir el modpack (CurseForge Export)
 
-Arkcraft es una instancia CurseForge → se reparte **exportando** desde la app (genera `.zip` con `manifest.json` + `overrides/`).
-**Pasos:** App CurseForge → instancia Arkcraft → `...` → **Export** → nombre/versión (Arkcraft 1.0) → elegir qué va en *overrides*.
+Arkcrafters es una instancia CurseForge → se reparte **exportando** desde la app (genera `.zip` con `manifest.json` + `overrides/`).
+**Pasos:** App CurseForge → instancia Arkcrafters → `...` → **Export** → nombre/versión (Arkcrafters 1.1) → elegir qué va en *overrides*.
 
 **Incluir (✅):** `config/` (incluye menús FancyMenu + quests/scripts), `kubejs/`, `defaultconfigs/`, `resourcepacks/`, `shaderpacks/` (shaders apagados), `options.txt` (reparte tus **controles** + texturas activadas).
 **NO incluir (❌, personal/runtime):** `saves/`, `logs/`, `crash-reports/`, `screenshots/`, `essential/`, `fancymenu_data/`, `local/`, `data/`, `blueprints/`, `schematics/`, `emotes/`, **`server/`** (se comparte aparte).
